@@ -4,6 +4,10 @@
 	font-style: sans-serif;
 }
 
+#main{
+	background: inherit;
+}
+
 nav{
 	background: slategrey;
 	margin: 2% 0px 0px 0px;
@@ -17,7 +21,7 @@ nav{
 	max-height: 10%;
 }
 
-h1{
+#title{
 	font-size: 4vw;
 	text-align: center;
 }
@@ -45,23 +49,27 @@ main{
 
 }
 
-img{
+#image{
 	width: auto;
 	height: 60vh;
 	padding: 15px;
 	background: white;
 	object-fit: cover;
+	align-self: center;
+
 }
 
+#img-div{
+	background: inherit;
+}
 
-
-figcaption{
+#img-caption{
 	text-align: center;
 	font-style: monospace;
 	font-size:  1vw;
 }
 
-.bio-box{
+#tribute-info{
 	width: 25vw;
 	height: auto;
 	line-height: 20px;
@@ -72,7 +80,7 @@ figcaption{
 }
 
 @media (max-width: 500px){
-	.bio-box{
+	#tribute-info{
 	width: 70vw;
 	height: auto;
 	line-height: 20px;
@@ -83,13 +91,13 @@ figcaption{
 	}
 }
 
-.bio-box h3{
+#tribute-info h3{
 	text-align: center;
 	padding-bottom: 2vw;
 }
 
 
-a{
+#tribute-link{
 	color: floralwhite;
 	text-decoration: none;
 }
