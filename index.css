@@ -74,12 +74,13 @@ nav{
 
 .hidden{
     opacity: 0;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    transform: translate(20px);
 }
 
 .unhidden{
     opacity: 1;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 300ms ease-in-out,transform 300ms ease-in-out;
 }
 
 #nav-block a{
