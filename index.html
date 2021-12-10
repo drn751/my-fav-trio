@@ -17,6 +17,17 @@
         <div class="nav-icon"> <span style="font-size: 80px;" class="material-icons">contactless</span> </div>
         <div id="nav-text">Contact<br>Less</div>
         </div>
+        <div class="nav-icon">
+        <a href="javascript:void(0);" onclick="myFunction()" style="font-size: 40px;" class="material-icons" >
+            menu
+            </a></span>
+            <div id="nav-block" class="hidden">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">test</a>
+            </div>
+        </div>
+            
         <div id="nav-right">
         <div class="nav-item"><a href="">Home</a></div>
         <div class="nav-item"><a href="">Pricing</a></div>
@@ -24,6 +35,7 @@
         </div>
     </div>
 </nav>
+
 
 <div class="hero-box">
     <div>
@@ -146,6 +158,15 @@ Node.js Project Licensing Information.
     </ul>
 </div>
 </footer>    
-
+<script>
+    function myFunction() {
+        let x = document.getElementById("nav-block");
+        if(x.className == "hidden"){
+            x.className = "unhidden";
+        }else{
+            x.className = "hidden";
+        }
+    }
+</script>
 </body>
 </html>
